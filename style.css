@@ -1,0 +1,90 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.search-container {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#search {
+    width: 50%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.schedule-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.schedule-item {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.schedule-item:last-child {
+    border-bottom: none;
+}
+
+.schedule-item h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.schedule-item .time {
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 0.5rem;
+}
+
+.schedule-item .speakers {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.schedule-item .categories {
+    margin-bottom: 1rem;
+}
+
+.schedule-item .category {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.break {
+    background-color: #f9f9f9;
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
